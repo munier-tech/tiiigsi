@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.container . {
+  width: 80%;
+  margin: auto;
+  
+
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+}
+
+.container header {
+  gap: 15px;
+  display: flex;
+  background-color: transparent;
+  top: 0;
+  border: solid 0.2px transparent;
+  left: 0;
+  right: 0;
+  position: fixed;
+  backdrop-filter: blur(7px);
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  justify-content: space-between;
+  padding: 1rem 7rem;
+  z-index: 1;
+
+
+}
+@media (max-width : 768px) {
+  .container header {
+    width: 150%;
+    padding: 0.5rem 0rem;
+  }
+}
+
+
+}
+@media (max-width : 480px) {
+  .container header {
+    width: 100%;
+    padding: 0.5rem 0rem;
+  }
+}
+
+
+.imgcover .img  {
+   width: 200px;
+  
+}
+ .imgcover .img  img {
+  width: 100%;
+}
+ .container .link {
+   justify-content: space-around;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   gap: 2.5rem;
+} 
+ .container .link a { 
+     text-decoration: none;
+     font-size: 14px;
+     color: rgb(24, 23, 23);
+
+}
+
+
+ .link .btn button {
+   background-color: transparent;
+   border: solid 2px #6f6af8;
+   font-family: "Ubuntu", sans-serif;
+   padding: .8rem 2rem;
+   font-weight: bold;
+   border-radius:5px ;
+   transition: all 0.3s ease;
+   font-size: 14px ;
+ }
+ .link .btn button:hover {
+  background-color: #6f6af8;
+  color: white;
+  
+ }
+ p {
+  display: block;
+  font-size: 10px;
+   color: #a9a9a9;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+
+
+
+  .content  {
+    text-align: center;
+    font-size: 2.2rem;
+   font-family: "Ubuntu", sans-serif;
+    margin-top: 11rem;
+ }
+
+ .content .btns {
+   display: flex;
+   gap: 13px;
+   justify-content: center;
+ }
+  .btns button {
+  padding: 1rem 5.8rem;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  box-shadow: #0000001a 0 4px 6px -1px, #0000000f 0 2px 4px -1px;
+  text-transform: uppercase;
+  font-family: "ubuntu" ,sans-serif;
+  background-color: #6f6af8;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    border: none;
+    font-size: 14px;
+    margin: 0.5rem 0;
+ }
+
+ .btns  .btn-1:hover  {
+  background-color: #4d4aac;
+  cursor: pointer;
+
+ }
+ .btns  .btn-2 {
+   background-color: transparent;
+   color: black;
+   box-shadow: #0000001a 0 4px 6px -1px, #0000000f 0 2px 4px -1px;
+   border: solid 1px #6f6af8;
+   padding: 1rem 4.8rem;
+
+ }
+ .btns  .btn-2:hover {
+  background-color: #6f6af8;
+  color: white;
+ }
+ 
+.img-cover-2 .img-1 {
+  width: 42rem;
+  justify-content: center;
+  margin:  1.8rem 26rem;
+  position: relative;
+
+  
+}
+.img-cover-2 .img-1 img {
+  width: 100%;
+  position: relative;
+}
+
+.content-2 {
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  justify-content: space-around;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 0 2.8rem;
+}
+
+h2 {
+  display: block;
+  font-size: 2.2rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  color: #6f6af8;
+  font-weight: bold;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  unicode-bidi: isolate;
+
+}
+ 
+ .p-tag{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #000;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-top: 0%;
+  unicode-bidi: isolate;
+}
+
+.content-3 .textarea {
+  
+text-align: center;
+    width: 52%;
+    margin: auto;
+    
+
+}
+.textarea h1 {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 900;
+  min-width: 100%;
+  text-align: center;
+}
+
+.content-3 .big-image {
+  width: 120%;
+  display: flex;
+  margin-left: 1rem;
+  justify-content: space-around;
+  padding-right: 10rem;
+  box-sizing: none;
+  display: block;
+  
+}
+
+.content-3 .big-image img {
+  width: 100%;
+
+} 
+.content-3 .service-text {
+  width: 90%;
+  margin: 0rem auto;
+  text-align: center
+}
+
+
+.service-text h1{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    position: relative;
+}
+
+
+
+.service-text p {
+  color: gray;
+  margin-top: 0rem;
+  font-size: 16px;
+}
+
+.content-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem 6rem;
+  gap: 4rem;
+
+}
+.content-4 .grid-1 {
+  
+  cursor: pointer;
+  background-color: #6f6af8;
+  border-radius: .3rem;
+  padding: 1.5rem ;
+  transition: all 0.3s linear;
+  
+}
+
+.content-4 .grid-1:hover {
+  box-shadow: #00000059 0 5px 15px;
+  transform: translateY(-4px);
+}
+
+
+
+.content-4 .software-text {
+  text-align: center;
+  width: 95%;
+  margin: auto
+}
+
+.software-text h2 {
+ 
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.software-text p {
+  font-size: 18px;
+  color: #ddd;
+}
+
+
+.grid-1 .div-image {
+  width: 70px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.grid-1 .div-image img {
+  width: 100%;
+
+}
+
+.client-members {
+  display: flex;
+  margin: 1rem 8rem;
+ 
+}
+
+.client-members .somaliland{
+  width: 200px;
+  width: 17rem;
+  border: solid 1px rgb(206, 205, 205);
+}
+.client-members .somaliland img{
+  width: 100%;
+  padding: 1rem 3rem ;
+}
+
+.our-features {
+  width: 50%;
+  display: grid;
+  margin: auto;
+  grid-template-columns:auto 1fr;
+  justify-content: center;
+}
+
+
+.our-features .features-image {
+  width: 280px;
+  
+}
+
+.our-features .features-image img {
+  width: 100%;
+  padding-left: 2rem;
+}
+.our-features .features-text {
+  width: 520px;
+  font-size: 10px;
+  text-align: center;
+  margin: auto;
+  padding-left: 0.2rem;
+}
+
+.features-text h2{
+ font-size: 16px;
+ width: 100%;
+ text-align: start;
+ padding-right: 1rem;
+}
+
+.features-text h1 {
+  font-size: 28px;
+  width: 100%;
+  text-align: start;
+}
+
+.features-text p {
+  display: block;
+  width: 100%;
+  padding: none;
+    font-size: 17px;
+    color: #080808;
+    text-align: start;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+.features-text .btn  {
+  align-items: start;
+  justify-content: start;
+  margin-right: 21rem;
+  padding-bottom: 1rem;
+}
+.features-text .btn button {
+  background-color: #6f6af8;
+  border: solid 2px #6f6af8;
+  font-family: "Ubuntu", sans-serif;
+  padding: .8rem 2rem;
+  color: white;
+  border-radius:.3rem ;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 16px ;
+}
+.features-text .btn button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.our-features-2 {
+  width: 50%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 60% 1fr;
+  justify-content: center;
+}
+
+
+.our-features-2 .features-image-2 {
+  width: 375px;
+  
+}
+
+.our-features-2 .features-image-2 img {
+  width: 100%;
+}
+.our-features-2 .features-text-2 {
+  width: 80%;
+  font-size: 10px;
+  text-align: center;
+  margin: auto;
+  padding-left: 0.2rem;
+}
+
+.features-text-2 h2{
+ font-size: 16px;
+ width: 100%;
+ text-align: start;
+}
+
+.features-text-2 h1 {
+  font-size: 28px;
+  width: 100%;
+  text-align: start;
+}
+
+.features-text-2 p {
+  display: block;
+  width: 100%;
+  padding: none;
+    font-size: 23px;
+    color: #080808;
+    text-align: start;
+    margin: 1.5rem 0;
+    font-size: 14px;
+}
+
+.features-text-2 .btn  {
+  align-items: start;
+  justify-content: start;
+  padding-right: 12rem;
+}
+.features-text-2 .btn button {
+  background-color: #6f6af8;
+  border: solid 2px #6f6af8;
+  font-family: "Ubuntu", sans-serif;
+  padding: .8rem 2rem;
+  color: white;
+  border-radius:.3rem ;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 16px ;
+}
+.features-text-2 .btn button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.grid-6 {
+  display: grid;
+  grid-template-columns: repeat(3, 29%);
+  width: 75%;
+  justify-content: center;
+  gap: 55px;
+  margin: auto;
+  
+}
+
+.grid-6 .grids:hover{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: translateY(-15px);
+}
+
+.grid-6 .grids {
+  width: 100%;
+  margin: 0.5rem auto;
+  border: solid 1px lightgrey;
+  border-radius: .3em;
+  height: 33rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.grids .grid-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: block;
+}
+.grids .grid-image img {
+  width: 100%;
+  padding: 1rem 1rem ;
+}
+
+.grid-text {
+  text-align: start;
+  margin-top: 2rem;
+  padding: 0 2rem ;
+}
+
+.grid-text h3 {
+  margin: 1rem 0;
+    color: #6f6af8;
+}
+
+.grid-text p {
+  font-size: medium;
+  color: gray;
+}
+
+
+.wide-container {
+  width: 100%;
+    padding: 4rem 2rem;
+    background-image: linear-gradient(to right, #ae00ff, #4ca1af);
+    margin: 2rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wide-container .wide-text {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+.wide-text h1 {
+  color: #fff;
+}
+
+.wide-text p {
+  color: #fff;
+  margin: 1rem 13rem;
+}
+
+.wide-btn button {
+  margin: 2rem 0;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    font-size: 16px;
+    border: none;
+    font-family: "ubunt" sans-serif;
+    cursor: pointer;
+    border-radius: .3rem;
+    color: #000;
+    font-weight: 700;
+    transition: all .3s ease;
+}
+
+.wide-btn button:hover {
+  transform: translateY(-4px);
+  box-shadow: #0000001a 0 4px 12px;
+
+}
+
+
+.last-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 14rem;
+  justify-content: space-between;
+}
+
+.last-container .email-grid  {
+  width: 100%;
+}
+.last-container .email-grid .email-text-section  {
+  margin: 10px 2.8rem;
+  font-weight: 500;
+}
+
+
+
+.email-form{
+  justify-content: start;
+  margin: auto;
+}
+
+.label {
+  cursor: default;
+  text-align: start;
+  margin: 0 2.8rem;
+}
+
+.name {
+  margin: 10px 2.8rem;
+
+}
+
+.email-class {
+  display: block;
+    margin: .5rem 0;
+    border: 1px solid lightblue;
+    padding: .8rem 1rem;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: .3rem;
+
+}
+
+.message-class{
+  display: block;
+  margin: .5rem 0;
+  height: 7rem;
+  border: 1px solid lightblue;
+  padding-left:  1rem;
+  padding-bottom: 4rem;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: .3rem;
+}
+
+
+.btn-container .btn button{
+  padding: .8rem 1rem;
+  font-size: 16px;
+  background-color: #6f6af8;
+  border: none;
+  color: #fff;
+  font-family: "ubuntu" , sans-serif;
+  border-radius: .3rem;
+  margin: 1rem 0;
+  transition: all .3s ease;
+  margin: 10px 2.8rem;
+}
+.btn-container .btn button:hover {
+  transform: translateY(-5px);
+  box-shadow: #0000001a 0 4px 12px;
+}
+
+.info-grid .info-img {
+  width: 30rem;
+  margin-right: 5rem;
+}
+.info-grid .info-img img {
+  width: 90%;
+}
+
+.info-grid .info-img-2 img {
+  width: 80%;
+}
+
+
+.footer{
+  margin-top: 10rem;
+}
+
+.footer .footer-img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer .footer-img img {
+  width: 100%;
+}
